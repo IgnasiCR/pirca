@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Contacto</title>
+
+		<meta charset="utf-8"/>
+
+		<style type="text/css">
+
+		div.texto
+			{
+				position:absolute;
+				top:0px;
+				left:0px;
+				width:960px;
+				height:720px;
+				overflow:auto;
+			}
+
+		div.form
+			{
+				margin-top:10px;
+				margin-left:10px;
+				margin-right:10px;
+			}
+
+			p.texto
+			{
+				font-size:13px;
+				margin-left:5px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="texto">
+
+			<div class="form"><form action="mailto:ignasialandalus2informatica@gmail.com" method="GET" enctype="text/plain"> <!-- GET (Los campos del formulario se ven en la barra de dirección.) y POST (Va dentro de los paquetes HTTP.) -->
+	
+	<fieldset>
+		<legend>Datos Personales</legend>
+
+		Nombre: <input name="Nombre" type="text" size="15" maxlength="25"/>
+		<br/>
+		<br/>
+		Apellidos: <input name="apellidos" type="text" size="30" maxlength="60"/>
+		<br/>
+		<br/>
+		Sexo:
+		<br/>
+		<br/>
+		<input name="sexo" type="radio" value="hombre"/> Hombre &nbsp;&nbsp; <input name="sexo" type="radio" value="mujer"/> Mujer &nbsp;&nbsp;<!-- Puedes usar el checked="yes" que un radiobutton esté activado ya. -->
+		<br/>
+		<br/>
+		Provincia:
+		<select name="provincia">
+		<option value="Granada"/>Granada
+		<option value="Jaen"/>Jaén
+		<option value="Huelva"/>Huelva
+		<option value="Cadiz"/>Cádiz
+		<option value="Cordoba"/>Córdoba
+		<option value="Malaga"/>Málaga
+		<option value="Almeria"/>Almería
+		</select>
+		<br/>
+		</fieldset>
+		<fieldset>
+			<legend>¿Por qué quieres contactar?</legend>
+
+			Tipo de Contacto:
+		<select name="contacto">
+		<option value="soporte"/>Soporte
+		<option value="sugerencia"/>Sugerencia
+		<option value="presupuesto"/>Presupuesto
+		</select>
+		<br/>
+		<br/>
+		Información:
+		<br/>
+		<br/>
+		<textarea name="comentario" cols="40" rows="5">
+		</textarea>
+		<br/>
+		<br/>
+		</fieldset>
+		<br/>
+		<p align="center"><input type="submit" value="Enviar"/> &nbsp;&nbsp; <input type="reset" value="Borrar"/></p>
+		
+	
+	<form>
+		</div>
+
+		<h1 align="center">¿Dónde estamos?</h1>
+
+		<hr width="75%"/>
+
+		<p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ses!2ses!4v1423473886688!6m8!1m7!1s6jysQjdPJccsmz6htaPjkQ!2m2!1d36.735897!2d-3.692848!3f104.53990840433478!4f-1.485404664295885!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0"></iframe></p>
+
+
+			
+		</div>
+
+	</body>
+
+</html>

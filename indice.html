@@ -1,0 +1,549 @@
+<html>
+	<head>
+		<title></title>
+
+		<meta charset="utf-8"/>
+
+			<style type="text/css">
+
+			body
+				{
+					background: url("images/fondo.jpg");
+					background-size:cover;
+				}
+
+
+				/* LOGO */
+
+				div.logo
+					{	
+						width:650px;
+						height:100px;
+						background-image:url("images/logo.png");
+					}
+
+
+				/* MENU */
+
+					div.recuadro
+				{
+					top:145px;
+					width:470px;
+					height:60px;
+					background-color:#151515;
+					margin:auto;
+					margin-top:20px;
+					margin-bottom:20px;
+				}
+
+			div.menu
+				{
+					position:relative;
+					top:5px;
+					width:460px;
+					min-width:460px;
+					height:50px;
+					margin:auto;
+					z-index:2;
+					background-color:red;
+				}
+
+			div.inicio
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					background-color:#665E39;
+				}
+
+			div.productos
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					left:115px;
+					background-color:#665E39;
+				}
+
+			div.servicios
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					left:230px;
+					background-color:#665E39;
+				}
+
+			div.contacto
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					left:345px;
+					background-color:#665E39;
+				}
+
+			div.ordenadores
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					top:50px;
+					left:0px;
+					display:none;
+					background-color:#665E39;
+				}
+
+			div.componentes
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					top:100px;
+					left:0px;
+					display:none;
+					background-color:#665E39;
+				}
+
+			div.reparaciones
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					top:50px;
+					left:0px;
+					display:none;
+					background-color:#665E39;
+				}
+
+			div.instalaciones
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					top:100px;
+					left:0px;
+					display:none;
+					background-color:#665E39;
+				}
+
+			div.cableado
+				{
+					position:absolute;
+					min-width:115px;
+					min-height:50px;
+					width:115px;
+					height:50px;
+					top:150px;
+					left:0px;
+					display:none;
+					background-color:#665E39;
+				}
+
+			a.enlaces
+				{
+					text-decoration:none;
+				}
+
+			div.inicio:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.productos:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.servicios:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.contacto:hover
+				{
+					background-color:#C1B88A;
+				}
+
+
+			div.ordenadores:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.componentes:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.cableado:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.reparaciones:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.instalaciones:hover
+				{
+					background-color:#C1B88A;
+				}
+
+			div.productos:hover .ordenadores
+				{
+					display:block;
+				}
+
+			div.productos:hover .componentes
+				{
+					display:block;
+				}
+
+			div.productos:hover .cableado
+				{
+					display:block;
+				}
+
+
+			div.servicios:hover .reparaciones
+				{
+					display:block;
+				}
+
+
+			div.servicios:hover .instalaciones
+				{
+					display:block;
+				}
+
+			a:active
+				{
+					color:white;
+				}
+
+			/* IFRAME */
+
+			div.recuadroif
+				{
+					top:250px;
+					width:970px;
+					height:730px;
+					background-color:#151515;
+					margin:auto;
+				}
+
+			div.iframe
+				{
+					position:relative;
+					top:5px;
+					width:960px;
+					height:720px;
+					background-color:white;
+					margin:auto;
+				}
+
+
+			/* CAPA */
+
+				div.capabaja
+					{
+						width:960px;
+						height:550px;
+						margin:auto;
+						margin-top:5px;
+					}
+
+				div.capabajalateral
+					{
+						position:relative;
+						width:250px;
+						height:555px;
+						float:right;
+					}
+
+				/* NOTICIA */
+
+				div.noticia
+				{
+					position:relative;
+					float:left;
+					width:700px;
+					height:500px;
+					background-color:white;
+					margin-bottom:50px;
+				}
+
+				div.ifnoticia
+					{
+						position:absolute;
+						top:40px;
+						left:5px;
+						width:690px;
+						height:455px;
+					}
+
+
+					/* QUIENES SOMOS */
+
+			p.quientexto
+				{
+					letter-spacing:1px;
+				}
+
+			div.quientexto
+				{
+					position:absolute;
+					top:35px;
+					left:5px;
+					bottom:5px;
+					right:5px;
+					overflow:auto;
+				}
+
+			div.quien
+				{
+					position:absolute;
+					top:0px;
+					right:0px;
+					width:250px;
+					height:315px;
+					background-color:white;
+					margin-bottom:20px;
+				}
+
+				/* SUGERENCIA */
+
+				div.sugerencia
+				{
+					position:absolute;
+					top:320px;
+					right:0px;
+					width:250px;
+					height:200px;
+					background-color:white;
+					margin-bottom:5px;
+				}
+
+				div.sugerenciatexto
+				{
+					position:absolute;
+					top:35px;
+					left:5px;
+					bottom:5px;
+					right:5px;
+					overflow:auto;
+				}
+
+			/* CREDITOS */
+
+
+				div.creditos2
+					{
+						clear:both;
+						bottom:0px;
+						width:960px;
+						height:35px;
+						background-color:black;
+						padding:0;
+
+					}
+
+
+				p.creditos
+					{
+						color:white;
+						font-size:11pt;
+					}
+
+				/* TITULOS */
+
+				p.titulo
+				{
+					color:#A4A4A4;
+					font-weight:bold;
+					margin-left:15px;
+				}
+
+
+			div.titulo
+				{
+					position:absolute;
+
+					top:5px;
+					left:5px;
+					width:240px;
+					height:30px;
+					background-image:url("images/barra.jpg");
+				}
+
+
+
+
+			</style>
+
+	</head>
+
+	<body link="white" vlink="white">
+
+		<table width="100%"><tr><td align="center"><div class="logo"></div></td></tr></table>
+
+		<div class="recuadro">
+
+		<div class="menu">
+
+			<a class="enlaces" href="web/inicio.html" target="iframe"><div class="inicio"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Inicio</p></td></tr></table></div></a>
+
+			<div class="productos">
+
+			<a class="enlaces" href="#"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Productos</p></td></tr></table></a>
+
+
+			<div class="ordenadores">
+
+			<a class="enlaces" href="web/ordenadores.html" target="iframe"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Ordenadores</p></td></tr></table></a>
+
+			</div>
+
+
+			<div class="componentes">
+
+			<a class="enlaces" href="web/componentes.html" target="iframe"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Componentes</p></td></tr></table></a>
+
+			</div>
+
+
+			<div class="cableado">
+
+			<a class="enlaces" href="web/cableado.html" target="iframe"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Cableado</p></td></tr></table></a>
+
+			</div>
+
+			</div>
+
+			<div class="servicios">
+
+			<a class="enlaces" href="#"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Servicios</p></td></tr></table></a>
+
+
+			<div class="reparaciones">
+
+			<a class="enlaces" href="web/reparaciones.html" target="iframe"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Reparaciones</p></td></tr></table></a>
+
+			</div>
+
+
+			<div class="instalaciones">
+
+			<a class="enlaces" href="web/instalaciones.html" target="iframe"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Instalaciones</p></td></tr></table></a>
+
+			</div>
+
+
+			</div>
+
+			<a class="enlaces" href="web/contacto.html" target="iframe"><div class="contacto"><table width="100%" height="100%"><tr><td align="center"><p style="color:white;">Contacto</p></td></tr></table></div></a>
+
+
+		</div>
+
+		</div>
+
+		<div class="recuadroif">
+
+			<div class="iframe">
+			
+				<iframe name="iframe" width="100%" height="100%" frameborder="no" src="web/inicio.html"></iframe>
+
+			</div>
+
+		</div>
+
+
+	<div class="capabaja">
+
+			<div class="noticia">
+
+				<div class="titulo">
+					
+					<table width="100%" height="100%"><tr><td><p class="titulo">Noticias - PIR Ca</p></td></tr></table>
+
+				</div>
+
+				<div class="ifnoticia">
+
+				<iframe name="ifnoticia" width="690px"height="455px" src="web/noticiaportada.html" frameborder="no"></iframe>
+
+				</div>
+
+			</div>
+
+		<div class="capabajalateral">
+
+				<div class="quien">
+			
+					<div class="titulo">
+					
+					<table width="100%" height="100%"><tr><td><p class="titulo">¿Quién somos?</p></td></tr></table>
+
+					</div>
+
+					<div class="quientexto">
+					
+					<p class="quientexto">PIR CA más conocido como Productos, Instalaciones y Reparaciones Camacho fue fundada en 2015 por Ignasi Camacho. Su especialidad como indica su nombre se trata de la venta de productos y servicios de tipo informático. Tanto a la reparación de equipos informáticos, y pasando por instalaciones de cableado de Internet.</p>
+					<a style="color:black;" href="#">Más información...</a>
+
+					</div>
+
+				</div>
+
+			<div class="sugerencia">
+
+					<div class="titulo">
+					
+					<table width="100%" height="100%"><tr><td><p class="titulo">¿Sugerencias?</p></td></tr></table>
+
+					</div>
+
+					<div class="sugerenciatexto">
+
+					<p class="quientexto">¿Tienes alguna sugerencia para la website? Pues nosotros te escucharemos. ¡Ayúdanos a mejorar! Gracias a las sugerencias de nuestros usuarios, seremos mucho mejores.
+
+					<a style="color:black;" href="#">Más información...</a> </p>
+
+					</div>
+				
+			</div>
+
+
+
+		</div>
+
+		<div class="creditos2">
+			
+		<table width="100%" height="100%"><tr><td align="center"><p class="creditos">© 2015 PIR CA - Productos, Instalaciones y Reparaciones Camacho. Todos los derechos reservados.</p></td></tr></table>
+
+		</div>
+	</div>
+			
+
+	</body>
+
+</html>
